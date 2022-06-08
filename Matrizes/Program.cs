@@ -29,7 +29,7 @@ namespace Matrizes
             int somaColuna = matriz[1, 0] + matriz[1, 1] + matriz[2, 1];
             Console.WriteLine($"Soma da coluna = {somaColuna}");
             Console.WriteLine("");
-            int multiplicacao = (matriz[0, 1]) * (matriz[1, 2]);
+            int multiplicacao = (matriz[0, 1])*(matriz[1, 2]);
             Console.WriteLine($"Soma da coluna = {multiplicacao}");
 
         }
