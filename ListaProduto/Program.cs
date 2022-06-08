@@ -66,13 +66,6 @@ namespace ListaProduto
             }
             Console.Write("\nQuantidade de produtos na lista: " + produtos.Count);
 
-            /*produtos.FindAll(x => x[0] == 'A');
-            foreach (string list in produtos)
-            {
-                Console.WriteLine(list);
-            }
-            Console.WriteLine("Produtos que comecam com A: " + letraA)*/
-
             Console.WriteLine("\n\n>>> Removendo produto na posicao 8 <<< ");
             produtos.RemoveAt(7);
             foreach (Produto list in produtos)
